@@ -22,7 +22,7 @@ public class Mascota {
     public Mascota(){
     }
     
-    public Mascota(int id, int stock,String raza,String Ninscripcion, String nombre, String propietario, int edad, boolean exitencia){
+    public Mascota(int id,int stock, String raza,String Ninscripcion, String nombre, String propietario, int edad, boolean exitencia){
         this.id=id;
         this.nombre=nombre;
         this.propietario=propietario;
@@ -33,21 +33,21 @@ public class Mascota {
         this.stock=stock;
     }
 
-    public Mascota(String nombre,int stock,String Ninscripcion, String propietario, int edad, String raza, boolean existencia) {
+    public Mascota(String nombre,String Ninscripcion, String propietario, int edad, String raza, boolean existencia) {
         this.nombre = nombre;
         this.propietario = propietario;
         this.edad = edad;
         this.raza = raza;
         this.existencia = existencia;
         this.Ninscripcion=Ninscripcion;
-        this.stock=stock;
+        
     }
     
 
     public Mascota(String raza, boolean existencia, int stock){
         this.raza=raza;
         this.existencia=existencia;
-        this.stock=stock;
+        
     }
 
     public Mascota(String string, int aInt, boolean aBoolean, int aInt0) {

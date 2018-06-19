@@ -117,8 +117,9 @@ public class Consulta extends JFrame{
         table= new JPanel();
         raza.addItem("Pitbull");
         raza.addItem("Pastor Aleman");
-        raza.addItem("Chihuahua");
-        raza.addItem("Siberian Hulsky");
+        raza.addItem("Gran danes");
+        raza.addItem("Dalmata");
+        raza.addItem("Rottweiler");
         existencia= new ButtonGroup();
         existencia.add(si);
         existencia.add(no);
